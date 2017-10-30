@@ -45,7 +45,7 @@ def save_model_metrics(estimator, name, scores, cm, classes, path):
     plt.savefig(join(path, 'summary_score.png'))
     
     # Save estimator
-    with open(join(path, name + '.p'), 'wb') as pkl:
+    with open(join(path, 'best_model.p'), 'wb') as pkl:
         pickle.dump(estimator, pkl)
 
     # Save confusion matrix
