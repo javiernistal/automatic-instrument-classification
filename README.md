@@ -30,11 +30,11 @@ can be found in the results folder. Usage::
 
     cd [path]/automatic-instrument-classification
 
-    python automatic-instrument-classification/main.py -p [path_to_dataset] -n [experiment_name]
+    python main.py -p [path_to_dataset] -n [experiment_name]
 
     Example:
 
-    python automatic-instrument-classification/main.py -p music_group_data -n exp_1
+    python main.py -p some_path/music_group_data -n exp_1
 
 
 Install
